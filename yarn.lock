@@ -1949,6 +1949,13 @@ expo-asset@~8.1.5:
     path-browserify "^1.0.0"
     url-parse "^1.4.4"
 
+expo-camera@~8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/expo-camera/-/expo-camera-8.2.0.tgz#9c849f0dc409e1fe6ee886f479e0ee0050b6d386"
+  dependencies:
+    lodash "^4.6.0"
+    prop-types "^15.6.0"
+
 expo-constants@~9.0.0:
   version "9.0.0"
   resolved "https://registry.yarnpkg.com/expo-constants/-/expo-constants-9.0.0.tgz#35c600079ee91d38fe4f56375caae6e90f122fdd"
@@ -1969,6 +1976,12 @@ expo-font@~8.1.0:
   dependencies:
     fbjs "1.0.0"
     fontfaceobserver "^2.1.0"
+
+expo-image-picker@~8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/expo-image-picker/-/expo-image-picker-8.1.0.tgz#014e4f4aaef4c1daf56d13de27a41ef78660aa15"
+  dependencies:
+    expo-permissions "~8.1.0"
 
 expo-keep-awake@~8.1.0:
   version "8.1.0"
@@ -1991,6 +2004,10 @@ expo-location@~8.1.0:
   resolved "https://registry.yarnpkg.com/expo-location/-/expo-location-8.1.0.tgz#6a71ad9a8b78d5f016a30a02013c3b28f46d0b1b"
   dependencies:
     invariant "^2.2.4"
+
+expo-media-library@~8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/expo-media-library/-/expo-media-library-8.1.0.tgz#f5d4b24819aa518e69d971f92b55c12f60c85ba5"
 
 expo-permissions@~8.1.0:
   version "8.1.0"
