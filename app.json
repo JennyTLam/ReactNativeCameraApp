@@ -22,7 +22,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    }
+      "supportsTablet": true,
+      "bundleIdentifier": "io.expo.imageshare"
+    },
+    "android": {
+      "package": "io.expo.imageshare"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
   }
 }
